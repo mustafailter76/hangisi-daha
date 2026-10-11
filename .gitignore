@@ -1,0 +1,73 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+/backups/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Environment and secret files
+.env
+.env.*
+!.env.example
+/tools/question_importer/.env.local
+*.jks
+*.keystore
+*.p12
+*.mobileprovision
+/secrets/
+/android/key.properties
+/android/app/google-services.json
+/ios/Runner/GoogleService-Info.plist
+
+# Generated/private artifacts from retired local management tools.
+/tools/question_panel/node_modules/
+/tools/question_panel/.next/
+/tools/question_panel/coverage/
+/tools/question_panel/.test-dist/
+/tools/question_panel/*.tsbuildinfo
+/tools/question_importer/node_modules/
+/tools/question_importer/.next/
+/tools/question_importer/coverage/
+/tools/question_importer/.test-dist/
+/tools/question_importer/*.tsbuildinfo
+/release_site/.vercel/
